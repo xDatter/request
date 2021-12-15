@@ -3,9 +3,69 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #512;
+    text-shadow: 1px 1px 10px #fff;
 }
 
-h1
+.div__body::before
 {
-    color: red;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url(https://images.wallpaperscraft.com/image/single/girl_umbrella_anime_141010_1920x1080.jpg) fixed center center;
+    /* background: url(https://images.wallpaperscraft.com/image/single/girl_twilight_clouds_156445_1920x1080.jpg) fixed center center; */
+    background-size: 150%;
+    filter: drop-shadow(50px 50px 10px #000000);
+    
+}
+
+.div_body__inside
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div_body__inside, header, nav, section, footer
+{
+    flex-basis: 100%;
+    outline: white solid 3px;
+    min-height: 5vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+header
+{
+    justify-content: center;
+}
+nav
+{
+
+}
+section.preview
+{
+    overflow: scroll;
+    height: 60vh;
+}
+footer
+{
+
+}
+.imgBox
+{
+    /* border-radius: 10px; */
+    display: flex;
+    margin: 5px auto;
+}
+.imgBox img
+{
+    
+    width: 30vw;
+    /* height: auto; */
+    border: solid 10px #000;
+    border-radius: 10px;
+
 }
