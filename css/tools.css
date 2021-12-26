@@ -3,6 +3,10 @@
     box-sizing: border-box !important;
 
 }
+*::selection
+{
+	display: none;
+}
 
 :root {
 	font-size: 110%;
@@ -19,10 +23,7 @@ a {
 	color: #17a2b8;
 	text-decoration: none;
 }
-a:hover {
-	color: #17a2b8;
-	text-decoration: none;
-}
+
 ul {
 	list-style: none;
 }
@@ -90,19 +91,13 @@ ul li {
 	border-color: #1a2b3e;
 	font-size: 1em;
 }
-.btn-primary:hover {
-	background: #17a2b8;
-	border-color: #0f8699;
-}
+
 .btn-outline-primary {
 	color: #243b55;
 	border-color: #1a2b3e;
 	font-size: 1em;
 }
-.btn-outline-primary:hover {
-	background: #17a2b8;
-	border-color: #0f8699;
-}
+
 .tag {
 	background: #F5F5F5;
 	border-radius: 5px;
@@ -173,26 +168,106 @@ ul li {
 
 .cNavImg
 {
-    max-width: 100%;
-    margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    min-width: 10%;
+    margin: 10px auto;
+	flex-grow: 1;
+	
 }
+.cNavImg img
+{
+	max-width: 75%;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+.cNavImg i
+{
+	font-size: 100px;
+	margin: 40px 0 20px;
+
+}
+
 .cNav
 {
-    flex-basis: 100%;
+	display: flex;
+    width	: 100%;
+	flex-grow: 1;
     margin-top: 5px;
+	flex-wrap: wrap;
 }
+.cNavCreator
+{
+	display: flex;
+	flex-direction: column;
+    min-width	: 100%;
+	flex-grow: 1;	
+	padding: 0;
+	font-weight: bold;
+}
+.cNavCreator div
+{
+	display: flex;
+}
+.cNavCreator p, .cNav p
+{
+	margin: 0;
+}
+.cNavCreator p:nth-child(even)
+{
+	margin: 0 0 0 10px;
+	color: #ccc;
+}
+.cNav p
+{
+	margin: 0 3vw;
+}
+
+.cNav i
+{
+	position: absolute;
+	font-size: 20px !important;
+	margin-top: 10px;
+}
+.cNavInfo div:nth-child(5) i
+{
+	font-size: 15px !important;
+}
+.cNav div
+{
+	display: flex;
+    min-width	: 100%;
+	flex-grow: 1;	
+	padding: 0;
+	font-weight: bold;
+}
+.cNav>p:last-child
+{
+	margin-bottom: 5px;
+	color: #ccc;
+}
+
 .cNavInfo
 {
     background-color: #142743;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     flex-grow: 1;
     min-width: 100%;
     border-radius: 10px 10px 0% 100% / 10px 10px 0% 20%;
     padding: 18px 10px;
+	min-height: 70vh;
+	padding: 10px 20px;
+}
+.cNombretool
+{
+	font-size: 1.5em	;
+	font-weight: bold;
 }
 
-/* -------------------------- descripcion */
+/* -------------------------- descripcion seccion 3 */
 .section3
 {
     order: 100;
@@ -203,18 +278,70 @@ ul li {
 .section3>div
 {
     margin: 0 auto 10px;
+	width: 100%;
 }
 .section3>div:last-child
 {
     margin-bottom: 0;
 }
 
+.section3 i
+{
+	position: absolute;
+	color: #243b55;
+	font-size: 4em;
+	margin-top: 20px;
+	width: 1px;
+}
+.section3 div:nth-child(3) i, .section3 div:nth-child(2) i
+{
+	font-size: 3.5em;
+}
 .cDesc
 {
-    border: none;
-    box-shadow: 2px 2px 20px #aaa;
+	border: none;
+	box-shadow: 2px 2px 20px #aaa;
 }
+.cDesc div
+{
+	margin: 0 0 0 7vw;
+	padding: 0 50px 0;
+}
+.cDesc div div
+{
+	padding: 0;
+	margin: 0;
+	
+}
+.cDesc div div a
+{
+	width: 10vw;
+	height: 5vh;
+	line-height: 2em;
+	margin: 25px 50px 0 0;
+}
+
+.cDesc div div a:hover
+{
+	background: #17a2b8;
+	border-color: #0f8699;
+	color: #17a2b8;
+	text-decoration: none;
+	color: #142743;
+}
+.cDesc p
+{
+	text-align: justify;
+}
+
 section
 {
     margin: 10px 10px;
+	/* outline: red solid 3px; */
+	display: flex;
+	flex-direction: column;
+}
+section div
+{
+	flex-grow: 1;
 }
