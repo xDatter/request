@@ -352,7 +352,12 @@ section div
 {
 	content: "";
 	position: absolute;
-	width: 20%;
+	width: 40%;
 	height: 2px;
 	background: linear-gradient(to right,#0f8699, transparent);
+}
+
+.section3 h6
+{
+	color: #142743;
 }
