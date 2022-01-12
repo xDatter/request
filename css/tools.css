@@ -136,7 +136,7 @@ ul li {
     flex-grow: 1;
     min-width: 100%;
     padding: 0;
-    background: linear-gradient(to bottom, transparent, #fff);
+    background: linear-gradient(to top, #fff 70%, transparent 70%);
     border: 0;
     box-shadow: 2px 2px 20px #aaa;
 }
@@ -356,4 +356,43 @@ section div
 .section3 h6
 {
 	color: #142743;
+}
+
+/* -----------------btn_back------------------------- */
+
+.btn_style
+{
+	position: absolute;
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	height: 50px;
+	left: -10px;
+	text-decoration: none;
+	width: 7vw;
+	border-radius: 5px;
+	border-right: solid 3px #fff;
+	transition: .3s;
+	
+}
+.btn_style:hover
+{
+	width: 15vw;
+	color: #fff;
+	border-right: solid 25px #fff;
+}
+.btn_back
+{
+	top: 25vh;
+	background: #17a2b8;
+}
+
+.btn_mb
+{
+	top: 32vh;
+	background: #142743;
 }
