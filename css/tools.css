@@ -13,7 +13,6 @@
 	font-size: 110%;
 }
 body {
-	font-size: 0.7em;
 	background: #f0f2f5;
 	color: #212529;
 }
@@ -377,7 +376,6 @@ section div
 .btn_style
 {
 	position: absolute;
-	font-size: 1em;
 	color: #fff;
 	font-weight: bold;
 	display: flex;
@@ -398,7 +396,6 @@ section div
 
 .btn_style:hover
 {
-	font-size: 1em;
 	color: #fff;
 	border-right: solid 2px #0009;
 	text-shadow: #142743 -1px 1px 5px,
