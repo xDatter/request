@@ -398,9 +398,9 @@ section div
 .btn_style:hover
 {
 	width: 7%;
-	left: 0.1vw;
+	left: -0.3vw;
 	color: #fff;
-	border-right: solid 2px #0003;
+	border-right: solid 8px #0009;
 	text-shadow: #fffa -2px -2px 10px,
 					#fff 2px 2px 10px;
 	box-shadow: #000 2px 2px 2px;
