@@ -182,7 +182,7 @@ ul li {
 {
 	font-size: 200px;
 	position: absolute;
-	top: 20%;
+	top: 30%;
 	opacity: 5%;
 
 }
@@ -255,6 +255,7 @@ ul li {
     padding: 18px 10px;
 	min-height: 70vh;
 	padding: 10px 20px;
+	font-size: 120%;
 }
 .cNombretool
 {
