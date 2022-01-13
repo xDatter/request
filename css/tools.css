@@ -400,8 +400,8 @@ section div
 	font-size: 1em;
 	color: #fff;
 	border-right: solid 6px #0009;
-	text-shadow: #fffa -2px -2px 20px,
-					#fff 2px 2px 20px;
+	text-shadow: #fff -2px -2px 20px,
+					#0007 2px 2px 20px;
 	box-shadow: #000 2px 2px 2px;
 	background: #17a2b8;
 	transition: .2s;
