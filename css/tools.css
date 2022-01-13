@@ -307,17 +307,30 @@ ul li {
 {
 	padding: 0;
 	margin: 0;
+	outline: red solid 2px;
+	display: flex;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
 	
 }
 .cDesc div div a
 {
-	width: 10vw;
+	width: 20%;
+	min-width: 5vw;
 	height: 5vh;
 	line-height: 2em;
 	margin: 25px 50px 0 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	outline: green solid 3px;
+	flex-grow: 1;
+}
+.cDesc div div p
+{
+	outline: solid 3px blue;
+	width: 70%;
+	flex-grow: 1;
 }
 
 .cDesc div div a:hover
