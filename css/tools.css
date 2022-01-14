@@ -108,8 +108,9 @@ ul li {
 
 #control
 {
-    width: 90vw;
+    width: 93vw;
     display: flex;
+	left: 3000px;
 }
 
 .cFlex
