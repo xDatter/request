@@ -108,9 +108,10 @@ ul li {
 
 #control
 {
+	position: absolute;
     width: 93vw;
     display: flex;
-	left: 3000px;
+	left: 50px;
 }
 
 .cFlex
@@ -406,4 +407,5 @@ section div
 {
 	top: 30vh;
 	background: #142743;
+	left: -50px;
 }
