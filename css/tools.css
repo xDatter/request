@@ -418,31 +418,52 @@ section div
 /* los min sobrescriben min - entre mayor el valor, debe ir más abajo en cascada */
 
 
-@media only screen and (max-width: 1100px) {
-	body {
-		background-color: lightpink;
-	  }
+@media only screen and (max-width: 1150px) {
+
   	*
 	{
 		font-size: 12px;
-		color: red;
 	}
 	#control
 	{
 		width: 90vw;
 	}
-
-}
-@media only screen and (max-width: 500px) {
-	body {
-		background-color: red;
-	  }
-
-}
-@media only screen and (min-width: 1500px) {
-	body {
-	  background-color: lightblue;
+	.btn_style
+	{
+		width: 60px;
+		height: 40px;
 	}
+	.cNavImg i
+	{
+		font-size: 150px;
+		top: 15%;
+		opacity: 5%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	*
+	{
+		font-size: 10px;
+	}
+	#control
+	{
+		width: 90vw;
+	}
+	.btn_style
+	{
+		width: 50px;
+		height: 25px;
+	}
+	.cNavImg i
+	{
+		font-size: 100px;
+		top: 15%;
+		opacity: 5%;
+	}
+
+}
+@media only screen and (min-width: 1700px) {
+
 	*
 	{
 		font-size: 20px;
@@ -450,7 +471,8 @@ section div
 	}
 	#control
 	{
-		width: 95vw;
+		width: 90vw;
+		left: 5vw;
 	}
 
 	.cNavImg i
@@ -459,19 +481,24 @@ section div
 		top: 15%;
 		opacity: 5%;
 	}
+	.btn_style
+	{
+		width: 100px;
+		height: 90px;
+	}
   }
 @media only screen and (min-width: 2200px) {
-	body {
-	  background-color: blue;
-	}
+
 	*
 	{
 		font-size: 30px;
 
+
 	}
 	#control
 	{
-		width: 95vw;
+		width: 90vw;
+		left: 5vw;
 	}
 
 	.cNavImg i
@@ -479,5 +506,10 @@ section div
 		font-size: 500px;
 		top: 15%;
 		opacity: 5%;
+	}
+	.btn_style
+	{
+		width: 150px;
+		height: 130px;
 	}
   }
