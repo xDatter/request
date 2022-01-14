@@ -4,10 +4,10 @@
 	font-size: 18px;
 
 }
-*::selection
+/* *::selection
 {
 	display: none;
-}
+} */
 
 
 body {
@@ -130,9 +130,11 @@ ul li {
     flex-grow: 1;
     min-width: 100%;
     padding: 0;
-    background: linear-gradient(to top, #fff 70%, transparent 70%);
+    background: linear-gradient(to bottom, transparent 50px, #fff 20px);
     border: 0;
+	border-radius: 5px;
     box-shadow: 2px 2px 20px #aaa;
+
 }
 
 .container
@@ -176,9 +178,8 @@ ul li {
 {
 	font-size: 200px;
 	position: absolute;
-	top: 30%;
+	top: 15%;
 	opacity: 5%;
-
 }
 
 .cNav
