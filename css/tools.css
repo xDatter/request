@@ -9,9 +9,7 @@
 	display: none;
 }
 
-:root {
-	font-size: 110%;
-}
+
 body {
 	background: #f0f2f5;
 	color: #212529;
@@ -60,7 +58,6 @@ ul li {
 	padding: 5px;
 }
 #my-chart caption {
-	font-size: 20px;
 	color: #000;
 }
 .hide {
@@ -69,19 +66,17 @@ ul li {
 .ratings {
 	text-align: center;
 }
-.product-rating {
-	font-size: 36px
-}
+
 .stars i {
-	font-size: 18px;
-	color: #17a2b8
+	color: #17a2b8;
+	font-size: 20px;
+	filter: hue-rotate(30deg);
 }
 .rating-text {
-	margin-top: 10px
+	margin-top: 10px;
 }
 .star-rating {
 	line-height: 24px;
-	font-size: 18px;
 }
 .star-rating .fa-star {
 	color: #f9c908;
@@ -89,13 +84,11 @@ ul li {
 .btn-primary {
 	background: #243b55;
 	border-color: #1a2b3e;
-	font-size: 1em;
 }
 
 .btn-outline-primary {
 	color: #243b55;
 	border-color: #1a2b3e;
-	font-size: 1em;
 }
 
 .tag {
@@ -109,7 +102,6 @@ ul li {
 	text-align: center;
 	font-weight: 400;
 	margin: 3px;
-	font-size: 12px;
 }
 
 /* ----------------------------- Estilo adicional*/
@@ -259,7 +251,6 @@ ul li {
 }
 .cNombretool
 {
-	font-size: 1.5em	;
 	font-weight: bold;
 	margin-top: 20%;
 }
@@ -286,13 +277,13 @@ ul li {
 {
 	position: absolute;
 	color: #243b55;
-	font-size: 4em;
+	font-size: 5em;
 	margin-top: 20px;
 	width: 1px;
 }
 .section3 div:nth-child(3) i, .section3 div:nth-child(2) i
 {
-	font-size: 3.5em;
+	font-size: 4.5em;
 }
 .cDesc
 {
