@@ -106,6 +106,10 @@ ul li {
 
 /* ----------------------------- Estilo adicional*/
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 #control
 {
 	position: absolute;
