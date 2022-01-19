@@ -106,9 +106,6 @@ ul li {
 
 /* ----------------------------- Estilo adicional*/
 
-::-webkit-scrollbar {
-	display: none;
-}
 
 #control
 {
@@ -312,8 +309,8 @@ ul li {
 }
 .cDesc div div a
 {
-	min-width: 5vw;
-	height: 5vh;
+	min-width: 70%;
+	height: 6vh;
 	line-height: 2em;
 	margin: 25px 50px 0 0;
 	display: flex;
